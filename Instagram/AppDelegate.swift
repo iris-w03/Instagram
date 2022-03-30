@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     $0.clientKey = "eR6eGCGW9CTLr9q2VeOOxGC5wYIU4aZDPBaKXCwj" // <- UPDATE
                     $0.server = "https://parseapi.back4app.com"
             }
-            Parse.initialize(with: parseConfig)
+        Parse.initialize(with: parseConfig)
             
         return true
     }
